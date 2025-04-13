@@ -72,6 +72,8 @@
 ![1.4](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/1.4.jpg)
 
 
+### rsync -ahavP --checksum --exclude=".*" ~/ /tmp/backup
+
 
 ------
 ### Задание 2
