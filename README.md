@@ -52,15 +52,15 @@
 
 Создаем папку backup в директории cd /tmp
 
-sudo mkdir backup
+### sudo mkdir backup
 
 
 
 Создание зеркальной копии домашней директории текущего пользователя в директорию /tmp/backup
 
-sudo rsync -ahavP --include '${HOME}' --exclude='.*' /home/${USER} /tmp/backup
+### sudo rsync -ahavP --include '${HOME}' --exclude='.*' /home/${USER} /tmp/backup
 
--а --arhive: копирование в режиме отправки файлов с настройками по умолчанию, которые максимально приближены к команде "cp -a"
+-а --arhive: копирование в режиме отправки файлов с настройками по умолчанию, которые приближены к команде "cp -a"
 
 -h --human-readable: список файлов в легко читаемом формате 
 
