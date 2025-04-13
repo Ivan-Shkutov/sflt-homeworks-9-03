@@ -88,6 +88,26 @@
 
 ![2.2](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/2.2.jpg)
 
+
+### /usr/local/bin/backup.sh
+
+
+echo "$(date +%Y-%m-%d_%H:%M:%S) - Starting the backup of the home directory" >> /tmp/backup/vm/backup.log
+
+rsync -ahavP --checksum --exclude=".*" /home/vm/ /tmp/backup/ > /dev/null 2>> /tmp/backup/vm/backup.log
+
+if [ $? -eq 0 ]; then
+
+    echo "Backup was completed successfully" >> /tmp/backup/vm/backup.log
+
+else
+    
+    echo "Backup completed with an error" >> /tmp/backup/vm/backup.log
+
+fi
+
+
+
 ![2.3](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/2.3.jpg)
 
 ![2.4](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/2.4.jpg)
