@@ -108,6 +108,11 @@
 
 
 
+Backup записывается в файл:
+
+### /tmp/backup/vm/backup.log
+
+
 ![2.3](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/2.3.jpg)
 
 ![2.4](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/2.4.jpg)
