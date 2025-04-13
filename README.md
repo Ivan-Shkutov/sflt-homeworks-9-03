@@ -43,13 +43,13 @@
 - На проверку направить скриншот с командой и результатом ее выполнения
 ------
 
-![1.1](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.1.png)
+![1.1](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/1.1.jpg)
 
-![1.2](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.1.png)
+![1.2](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/1.2.jpg)
 
-![1.3](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.1.png)
+![1.3](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/1.3.jpg)
 
-![1.4](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.1.png)
+![1.4](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/1.4.jpg)
 
 
 
@@ -61,6 +61,14 @@
 - Резервная копия размещается локально, в директории `/tmp/backup`
 - На проверку направить файл crontab и скриншот с результатом работы утилиты.
 ------
+
+![2.1](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/2.1.jpg)
+
+![2.2](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/2.2.jpg)
+
+![2.3](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/2.3.jpg)
+
+![2.4](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/2.4.jpg)
 
 
 
