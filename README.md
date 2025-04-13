@@ -43,6 +43,14 @@
 - На проверку направить скриншот с командой и результатом ее выполнения
 ------
 
+![1.1](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.1.png)
+
+![1.2](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.1.png)
+
+![1.3](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.1.png)
+
+![1.4](https://github.com/Ivan-Shkutov/sflt-homeworks-9-01/blob/main/img/1.1.png)
+
 
 
 ------
