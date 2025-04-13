@@ -92,19 +92,19 @@
 ### /usr/local/bin/backup.sh
 
 
-   echo "$(date +%Y-%m-%d_%H:%M:%S) - Starting the backup of the home directory" >> /tmp/backup/vm/backup.log
+      echo "$(date +%Y-%m-%d_%H:%M:%S) - Starting the backup of the home directory" >> /tmp/backup/vm/backup.log
 
-   rsync -ahavP --checksum --exclude=".*" /home/vm/ /tmp/backup/ > /dev/null 2>> /tmp/backup/vm/backup.log
+      rsync -ahavP --checksum --exclude=".*" /home/vm/ /tmp/backup/ > /dev/null 2>> /tmp/backup/vm/backup.log
 
-   if [ $? -eq 0 ]; then
+      if [ $? -eq 0 ]; then
 
-     echo "Backup was completed successfully" >> /tmp/backup/vm/backup.log
+        echo "Backup was completed successfully" >> /tmp/backup/vm/backup.log
 
-   else
+      else
 
-     echo "Backup completed with an error" >> /tmp/backup/vm/backup.log
+        echo "Backup completed with an error" >> /tmp/backup/vm/backup.log
 
-   fi
+      fi
 
 
 
