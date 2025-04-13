@@ -49,6 +49,26 @@
 
 ![1.3](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/1.3.jpg)
 
+
+Создаем папку backup в директории cd /tmp
+
+sudo mkdir backup
+
+
+
+Создание зеркальной копии домашней директории текущего пользователя в директорию /tmp/backup
+
+sudo rsync -ahavP --include '${HOME}' --exclude='.*' /home/${USER} /tmp/backup
+
+-а --arhive: копирование в режиме отправки файлов с настройками по умолчанию, которые максимально приближены к команде "cp -a"
+
+-h --human-readable: список файлов в легко читаемом формате 
+
+-v --verbose: сообщать каждую операцию при выполнении
+
+-P --progress: отображение прогресса работы
+
+
 ![1.4](https://github.com/Ivan-Shkutov/sflt-homeworks-9-03/blob/main/img/1.4.jpg)
 
 
